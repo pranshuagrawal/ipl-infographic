@@ -1,4 +1,4 @@
-#IPL - Inforgraphic
+# IPL - Inforgraphic
 
 The story behind this project is that a person has lost interest in watching cricket. So I had to create a web application which will pull out some insights from past 9 years of Indian Premier League Data.
 
@@ -12,7 +12,7 @@ To view of demo of the compiled version, head on to this link. [Demo Link.](http
 
 Or to run this code base follow the further steps
 
-###Prerequisites
+### Prerequisites
 
  - Install NPM
  - Install Angular 
@@ -36,6 +36,7 @@ Since the given data was in `.csv` format. Web based endpoints were created usin
  - Web framework used is **Angular 5** 
     - Reason -
  - To build responsive layouts **Bootstrap 4** is used
+ - **Highcharts** are used for data visualizations.
  - Other technologies used are **HTML 5, CSS 3, JavaScript ES6**
  - This project **does not** required jQuery.
  
