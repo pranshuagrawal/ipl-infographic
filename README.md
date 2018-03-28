@@ -8,7 +8,7 @@ This web application is presenting 6 pieces of information. Each information is 
 
 This is a repository storing the complete un-compiled typescript code where you can get an idea what I have done here.
 
-To view of demo of the compiled version, head on to this link. [Demo Link.](https://pranshuagrawal.githiub.io/idnex.html)
+To view of demo of the compiled version, head on to this link. [Demo Link.](https://pranshuagrawal.github.io/idnex.html)
 
 Or to run this code base follow the further steps
 
@@ -28,14 +28,16 @@ ng serve --port <port-number>
 ```
 ## Data
 
-Since the given data was in `.csv` format. Web based endpoints were created using `PHP` which were taking data from the `.csv` files which was further transformed into the required format.
+Since the given data was in `.csv` format. Web based endpoints were created using `PHP` which were taking data from the `.csv` files and transformed further into the required format.
 
 
 ## Framework / Libraries Used
 
- - Web framework used is **Angular 5** 
-    - Reason -
- - To build responsive layouts **Bootstrap 4** is used
+ - Web framework used is **Angular**.
+   - Primary reason of using this is becuase I have decent understanding of this frameworks. 
+   - I like the way it maintains the structure of the code. 
+   - Use of TypeScript enhances the object orientedness of this web framework.
+ - To build responsive layouts, **Bootstrap 4** is used
  - **Highcharts** are used for data visualizations.
  - Other technologies used are **HTML 5, CSS 3, JavaScript ES6**
  - This project **does not** required jQuery.
