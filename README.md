@@ -8,7 +8,7 @@ This web application is presenting 6 pieces of information. Each information is 
 
 This is a repository storing the complete un-compiled typescript code where you can get an idea what I have done here.
 
-To view of demo of the compiled version, head on to this link. [Demo Link.](https://pranshuagrawal.github.io/idnex.html)
+To view of demo of the compiled version, head on to this link. [Demo Link.](https://pranshuagrawal.github.io/index.html)
 
 Or to run this code base follow the further steps
 
