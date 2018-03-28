@@ -1,0 +1,40 @@
+<div class="row">
+  <div class="col-sm-12">
+    <h2>Top teams to watch for </h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 col-md-8 offset-md-2 col-lg-8 offset-lg-2">
+    <div class="all_images_container">
+      <div
+        *ngFor="let team of topTeams"
+        class="team_container elem_container"
+        (click)="select(team.Team_Id)"
+      >
+        <img
+          [alt]="team.Team_Name"
+          class="round_logo"
+          [class.active] = "team_id === team.Team_Id"
+          src="./assets/images/team_{{team.Team_Id}}.png"
+        >
+      </div>
+    </div>
+
+    <div class="chart_container">
+      <app-individual-team-stats [plot_id]="team_id">
+
+      </app-individual-team-stats>
+    </div>
+
+
+    <div class="row mt-30">
+      <div class="col-lg-12">
+        <p>{{maximumWins}} have recorded maximum number of wins since the inception of the IPL.</p>
+        <p>Do you support any one of these or you think that your team can overturn the table this time.</p>
+      </div>
+    </div>
+
+
+  </div>
+</div>

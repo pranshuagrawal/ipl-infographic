@@ -1,0 +1,72 @@
+<div class="row mt-50">
+
+
+  <div class="col-sm-12 col-lg-5 col-md-6">
+    <h2>Top batsman to watch for </h2>
+
+    <div class="all_images_container">
+
+      <div
+        *ngFor="let player of topPlayers"
+        class="team_container elem_container"
+        (click)="select('player', player.Player_Id)"
+      >
+        <img
+          [alt]="player.Player_Name"
+          class="round_logo"
+          [class.active] = "player_id === player.Player_Id"
+          src="./assets/images/player_{{player.Player_Id}}.jpg"
+        >
+      </div>
+
+    </div>
+
+    <div class="chart_container">
+      <app-individual-stats plot_type="player" [plot_id]="player_id">
+      </app-individual-stats>
+    </div>
+
+    <div class="row mt-30">
+      <div class="col-lg-12">
+        <p>
+          {{topPlayersInsight}} have been the entertainers throughout. Witness them continuing the same streak by hammering the bowlers down.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="col-sm-12 col-lg-5 col-md-6  offset-lg-2">
+    <h2>Top bowlers to watch for </h2>
+
+    <div class="all_images_container">
+      <div
+        *ngFor="let bowler of topBowlers"
+        class="team_container elem_container"
+        (click)="select('bowler',bowler.Player_Id)"
+      >
+        <img
+          [alt]="bowler.Player_Name"
+          class="round_logo"
+          [class.active] = "bowler_id === bowler.Player_Id"
+          src="./assets/images/player_{{bowler.Player_Id}}.jpg"
+        >
+      </div>
+    </div>
+
+    <div class="chart_container">
+      <app-individual-stats plot_type="bowler" [plot_id]="bowler_id">
+      </app-individual-stats>
+    </div>
+    
+
+    <div class="row mt-30">
+      <div class="col-lg-12">
+        <p>{{topBowlerInsight}} are the ones taking maximum batsman down. To see a striker facing a ball from these players will definitely be a fun thing to watch.</p>
+      </div>
+    </div>
+
+  </div>
+
+</div>

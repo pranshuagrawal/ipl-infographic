@@ -1,0 +1,25 @@
+.all_images_container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.elem_container{
+  display: inline-block;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.round_logo{
+  width: 100%;
+  border-radius: 50%;
+  max-width: 80px;
+  opacity: .7;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+.round_logo.active{
+  transform: scale(1.2);
+  border: 3px solid #fff;
+  opacity: 1;
+}

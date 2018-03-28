@@ -1,0 +1,26 @@
+<div class="row mt-50">
+  <div class="col-lg-12">
+    <h2>Top innings to watch for</h2>
+  </div>
+</div>
+<div class="row mt-30">
+  <div class="col-sm-12 col-md-6">
+    <chart
+      [options]="chartOptions"
+      (load)="saveInstance($event.context)"
+    >
+
+    </chart>
+  </div>
+
+  <div class="col-md-6 col-sm-12">
+    <p>
+      The excitement of IPL comes down to the wire. Chasing team has won almost 18% more matches than the team batting first.
+    </p>
+    <p>
+      So you definitely know what to wish for you favorite team.
+    </p>
+  </div>
+</div>
+
+
