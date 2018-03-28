@@ -44,7 +44,7 @@ Since the given data was in `.csv` format. Web based endpoints were created usin
  
 ## Bonus Points
 
-I have used Google Lighthouse for benchmarking this application.
+I have used Google Lighthouse for benchmarking this application. Checklist used for testing [PWA criteria](https://developers.google.com/web/progressive-web-apps/checklist)
 
  - Page load time is optimized on this application and has scored **80/100 on Google Lighthouse** (screen shot attached further). 
     - No render blocking scripts.
@@ -66,6 +66,9 @@ I have used Google Lighthouse for benchmarking this application.
  - It is mobile responsive. 
  - It works when a user is in offline mode or in low connectivity zone.
  
+ 
+![alt text](https://raw.githubusercontent.com/pranshuagrawal/ipl-infographic/master/src/assets/images/benchmarking.png)
+
     
 
 ## What's Included
